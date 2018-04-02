@@ -1,0 +1,142 @@
+body {
+	background-color: #000;
+	background-image: url("fon.jpg");
+	color: #fff;
+}
+
+#fotograf{
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+	font-style: italic;
+	position: absolute;
+	left: 220px;
+	top: 5px;
+}
+
+#Name{
+	color: #fff;
+	font-family: 'Philosopher', sans-serif;;
+	font-size: 55px;
+	position: absolute;
+	left:25px;
+	top: 20px;
+}
+
+#Family{
+	color: #fff;
+	font-family: 'Philosopher', sans-serif;;
+	font-size: 55px;
+	position: absolute;
+	left: 180px;
+	top: 60px;
+}
+
+#telefon{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	left: 1170px;
+	top: 100px;
+}
+
+#logo{
+	position: absolute;
+	left: 1150px;
+	top: 5px;
+}
+
+#vk{
+	position: absolute;
+	left: 1100px;
+	top: 92px;
+}
+
+#inst{
+	position: absolute;
+	left: 1045px;
+	top: 92px;
+}
+
+
+ul.navigate li{
+	list-style-type : none;
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	font-size: 25px;
+	display: inline-block;
+    margin-top: 130px;
+	margin-left: 120px;
+}
+
+#polosa1{
+	color: #fff;
+	position:absolute;
+	top: 130px;
+	width: 100%;
+}
+
+#polosa2{
+	color: #fff;
+	position:absolute;
+	top: 175px;
+	width: 100%;
+}
+
+#slides {
+position: relative;
+left: 300px;
+top: 0px;
+height: 50px;
+padding: 0px;
+margin: 0px;
+list-style-type: none;
+}
+ 
+.slide {
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100%;
+height: 100%;
+opacity: 0;
+z-index: 1;
+
+-webkit-transition: opacity 1s;
+-moz-transition: opacity 1s;
+-o-transition: opacity 1s;
+transition: opacity 1s
+}
+
+.showing {
+opacity: 1;
+z-index: 2;
+}
+
+#previous{
+	position: absolute;
+    top: 450px;
+    left: 60px;
+    background: none;
+    border: none;
+}
+
+#next{
+	position: absolute;
+    top: 450px;
+    left: 1130px;
+    background: none;
+    border: none;
+}
+
+.controls1 {
+display: none;
+}
+
+#polosa3{
+	color: #fff;
+	position:absolute;
+	top: 760px;
+	width: 100%;
+	bottom: 10px;
+}
